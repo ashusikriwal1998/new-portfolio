@@ -5,7 +5,7 @@ import gsap from "gsap";
 import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
-
+import logo from '../../public/img/logo.png'
 import Button from "./Button";
 import Image from "next/image";
 
@@ -66,7 +66,7 @@ const NavBar = () => {
       <header className="absolute top-1/2 w-full -translate-y-1/2">
         <nav className="flex size-full items-center justify-between p-4">
           <div className="flex items-center gap-7">
-            <Image width={50} height={50} src="/img/logo.png" alt="logo" className="w-10" />
+            <Image width={50} height={50} src={logo} alt="logo" className="w-10" />
 
             <Button
               id="product-button"

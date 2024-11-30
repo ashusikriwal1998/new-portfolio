@@ -164,7 +164,7 @@ const nextVdRef = useRef<HTMLVideoElement | null>(null);
                 id="watch-trailer"
                 title="Watch trailer"
                 leftIcon={<TiLocationArrow />}
-                rightIcon={<></>}
+                rightIcon={<div></div>}
                 containerClass="bg-yellow-300 flex-center gap-1"
               />
 

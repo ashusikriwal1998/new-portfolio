@@ -1,7 +1,7 @@
 "use client";
 import gsap from "gsap";
 import { useRef } from "react";
-
+import Entrance from '../../public/img/entrance.webp'
 import Button from "./Button";
 import AnimatedTitle from "./AnimatedTitle";
 import Image from "next/image";
@@ -71,7 +71,7 @@ const Story = () => {
                   onMouseLeave={handleMouseLeave}
                   onMouseUp={handleMouseLeave}
                   onMouseEnter={handleMouseLeave}
-                  src="/img/entrance.webp"
+                  src={Entrance}
                   alt="entrance.webp"
                   className="object-contain"
                 />
@@ -119,8 +119,8 @@ const Story = () => {
               id="realm-btn"
               title="discover prologue"
               containerClass="mt-5"
-              rightIcon={<></>}
-              leftIcon={<></>}
+              rightIcon={<div></div>}
+              leftIcon={<div></div>}
             />
           </div>
         </div>

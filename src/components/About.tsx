@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
-
+import aboutImg from '../../public/img/about.webp'
 import AnimatedTitle from "./AnimatedTitle";
 import Image from "next/image";
 
@@ -51,7 +51,7 @@ const About = () => {
       <div className="h-dvh w-screen" id="clip">
         <div className="mask-clip-path about-image">
           <Image
-            src="img/about.webp"
+            src={aboutImg}
             alt="Background"
             className="absolute left-0 top-0 size-full object-cover"
             width={0}
