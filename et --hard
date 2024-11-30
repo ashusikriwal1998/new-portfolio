@@ -1,0 +1,29 @@
+[33mcommit 45f34e0d80d7abfdb6c2ae207792453e94aed0cb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mui[m[33m, [m[1;31morigin/ui[m[33m)[m
+Author: Ashu Sikriwal <hashu94@gmail.com>
+Date:   Sat Nov 30 19:22:02 2024 +0530
+
+    fix: img
+
+[33mcommit b0910a0657319ba26e53d699c8c2020843e4b346[m
+Author: Ashu Sikriwal <hashu94@gmail.com>
+Date:   Sat Nov 30 19:11:00 2024 +0530
+
+    fix: build errors and warnings
+
+[33mcommit 188bf109a50f1a9d73da2d25b15bd604f90399da[m[33m ([m[1;32mmain[m[33m, [m[1;32mdev[m[33m)[m
+Author: Harish Sikriwal <info@cubewizard.io>
+Date:   Sat Nov 30 17:56:30 2024 +0530
+
+    first commit
+
+[33mcommit 8be53d1e6b7e6dcd12ed812f9eb0a55b329c0f88[m
+Author: Harish Sikriwal <info@cubewizard.io>
+Date:   Sat Nov 30 17:55:58 2024 +0530
+
+    first commit
+
+[33mcommit ca63757246b3829c329c6038572d0c3e4eb93bb4[m
+Author: Harish Sikriwal <info@cubewizard.io>
+Date:   Sat Nov 30 16:27:10 2024 +0530
+
+    Initial commit from Create Next App
