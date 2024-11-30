@@ -1,3 +1,4 @@
+import Image from "next/image";
 import AnimatedTitle from "./AnimatedTitle";
 import Button from "./Button";
 
@@ -5,14 +6,10 @@ interface ImageClipBoxProps {
   src: string;
   clipClass: string;
 }
-interface AnimatedTitleProps {
-  title: string;
-  containerClass?: string;
-}
 
 const ImageClipBox: React.FC<ImageClipBoxProps> = ({ src, clipClass }) => (
   <div className={clipClass}>
-    <img src={src} />
+    <Image alt="" width={0} height={0} src={src} />
   </div>
 );
 

@@ -1,14 +1,15 @@
-"use client"
-  import gsap from "gsap";
+"use client";
+import gsap from "gsap";
 import { useRef } from "react";
 
 import Button from "./Button";
 import AnimatedTitle from "./AnimatedTitle";
+import Image from "next/image";
 
 const Story = () => {
   const frameRef = useRef<HTMLImageElement | null>(null);
 
-  const handleMouseMove = (e:any) => {
+  const handleMouseMove = (e: React.MouseEvent<HTMLImageElement, MouseEvent>) => {
     const { clientX, clientY } = e;
     const element = frameRef.current;
 
@@ -62,7 +63,9 @@ const Story = () => {
           <div className="story-img-container">
             <div className="story-img-mask">
               <div className="story-img-content">
-                <img
+                <Image
+                  width={0}
+                  height={0}
                   ref={frameRef}
                   onMouseMove={handleMouseMove}
                   onMouseLeave={handleMouseLeave}
