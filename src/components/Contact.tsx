@@ -5,9 +5,10 @@ import contact1 from '../../public/img/contact-1.webp'
 import contact2 from '../../public/img/contact-2.webp'
 import swordmanPart from '../../public/img/swordman-partial.webp'
 import swordman from '../../public/img/swordman.webp'
+import { StaticImageData } from 'next/image'; // Import the type for StaticImageData
 
 interface ImageClipBoxProps {
-  src: any;
+  src: string | StaticImageData; // Allow both string URLs and StaticImageData
   clipClass: string;
 }
 
